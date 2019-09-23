@@ -1,4 +1,6 @@
 library(smatr)
+library(deSolve)
+
 source("R/plot-utils.R")
 
 # Figure 1 - example RA schedules

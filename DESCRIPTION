@@ -1,0 +1,21 @@
+Type: Compendium
+Package: Wenk_RA_review
+Title: Quantifying and understanding reproductive allocation schedules in plants
+Version: 1.0.1
+Authors@R: c(
+    person(given = "Elizabeth", 
+           family = "Wenk", 
+           role = "aut"),
+    person(given = "Daniel",
+           family = "Falster",
+           role = c("aut"),
+           email = "daniel.falster@unsw.edu.au",
+           c(ORCID = "0000-0002-9814-092X"))
+    )
+Description: This repository contains the code to reproduce the results for the article: Wenk EH, Falster DS. (2015). Quantifying and understanding reproductive allocation schedules in plants. Ecology and Evolution, 5: 5521-5538. doi:10.1002/ece3.1802.
+License: LICENSE.md
+Depends: 
+    deSolve,
+    smatr
+Encoding: UTF-8
+LazyData: true
